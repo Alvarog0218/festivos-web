@@ -1,0 +1,58 @@
+body{
+    background-color: rgb(49, 49, 49);
+    margin-top: 10%;
+    margin-bottom: 10%;
+    margin-left: 25%;
+    margin-right: 25%;
+
+}
+@font-face {
+    font-family:'neon_80s' ;
+    src: url(/static/font/neon_80s/Neon.ttf);
+}
+.neon{
+    font-family: 'neon_80s';
+}
+.h1{
+    text-align: center;
+    font-size: 75px;
+    color: lightgreen;
+    transition: 0.2s;
+    text-shadow: 0 0 30px lightgreen;
+    margin-bottom: 15%;
+    font-family: 'neon_80s';
+}
+.titular{
+    height: auto;
+    width: 100%;
+    border-radius: 15px;
+
+}
+.h2{
+    color: lightcoral;
+    font-size: 35px;
+    transition: 0.2s;
+    text-shadow: 0 0 30px lightcoral;
+    font-family: 'neon_80s';
+}
+.contenido{
+    text-align: left;
+    font-size: 19px;
+    color: whitesmoke;
+}
+.p{
+    margin-left: 20px;
+    align-content: center;
+    margin-top: 15%;
+    padding: 10px;
+
+}
+
+.bloque{
+    display: grid;
+    grid-template-columns: auto auto ;
+    
+}
+.border{
+    border-radius: 15px;
+}

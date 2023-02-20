@@ -1,0 +1,31 @@
+body{
+    background-color: rgba(99, 0, 0, 0.788);
+
+}
+#particles-js {
+	height: 100vh; 
+	width: 100%;
+    position: fixed;
+    z-index: -1;
+}
+.container{
+    margin-top: 5%;
+    margin-bottom: 10%;
+    margin-right: 25%;
+    margin-left: 25%;
+}
+.h1{
+    font-size: 80px;
+    color: azure;
+    text-align: center;
+}
+.h2{
+    font-size: 40px;
+    color: azure;
+    text-align: start;
+}
+.p{
+    font-size: 20px;
+    color: azure;
+    text-align: start;
+}
